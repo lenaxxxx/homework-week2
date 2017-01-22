@@ -41,6 +41,12 @@ Question 3 History:
   589  history 10 >> ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
 
 Question 4 Answers:
+The 10th largest species
+Cetartiodactyla Balaenidae Eubalaena Eubalaena glacialis 22999999.91
+The 10th smallest species
+Chiroptera Vespertilionidae Pipistrellus Pipistrellus nanulus 2.51
+
+Question 5 history:
   635 wc -l bodyM.csv
   636  greg Vombatidae bodyM.csv
   637  grep Vombatidae bodyM.csv 
@@ -58,3 +64,4 @@ Question 4 Answers:
   649  history 15 > ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
   650  sudo gedit ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
   651  history 17 > ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
+
