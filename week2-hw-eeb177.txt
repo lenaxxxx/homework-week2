@@ -1,6 +1,6 @@
 Question 1 Answer: cut -d ";" -f 2 Pacifici2013_data.csv | head 6 | tail -n +2
 
-Question 2 Answers: cut -d ";" -f 3 Pacifici2013_data.csv | sort -d | uniq -u
+Question 2 Answers: tail -n +2  Pacifici2013_data.csv | cut -d ";" -f 3  | sort -d | uniq -u
 Ailuridae
 Antilocapridae
 Aplodontiidae
@@ -41,4 +41,20 @@ Question 3 History:
   589  history 10 >> ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
 
 Question 4 Answers:
-
+  635 wc -l bodyM.csv
+  636  greg Vombatidae bodyM.csv
+  637  grep Vombatidae bodyM.csv 
+  638  grep -c Vombatidae bodyM.csv 
+  639  grep Bos bodyM.csv 
+  640  grep -w Bos bodyM.csv 
+  641  grep -i Bos bodyM.csv 
+  642  grep -B 2 -A 2"Gorilla gorilla" bodyM.csv 
+  643  grep -B 2 -A 2 "Gorilla gorilla" bodyM.csv 
+  644  grep -n "Gorilla gorilla" bodyM.csv 
+  645  grep Gorilla bodyM.csv | grep -v gorilla
+  646  grep -w "Gorilla\|Pan" bodyM.csv 
+  647  grep -r "Gorilla"
+  648  history
+  649  history 15 > ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
+  650  sudo gedit ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
+  651  history 17 > ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
