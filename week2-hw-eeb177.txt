@@ -65,3 +65,8 @@ Question 5 history:
   650  sudo gedit ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
   651  history 17 > ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
 
+Question 6 Answers:
+The size of Marra2014_data.fasta is 553K.
+
+
+
