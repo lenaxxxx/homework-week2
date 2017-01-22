@@ -1,3 +1,44 @@
-Question 1 Answer: cut -d ";" -f 2 | head 6 | tail -n +2
+Question 1 Answer: cut -d ";" -f 2 Pacifici2013_data.csv | head 6 | tail -n +2
 
+Question 2 Answers: cut -d ";" -f 3 Pacifici2013_data.csv | sort -d | uniq -u
+Ailuridae
+Antilocapridae
+Aplodontiidae
+Craseonycteridae
+Cyclopedidae
+Daubentoniidae
+Diatomyidae
+Dinomyidae
+Dugongidae
+Eschrichtiidae
+Hypsiprymnodontidae
+Microbiotheriidae
+Myocastoridae
+Myrmecobiidae
+Nandiniidae
+Neobalaenidae
+Odobenidae
+Ornithorhynchidae
+Orycteropodidae
+Petromuridae
+Phascolarctidae
+Platanistidae
+Ptilocercidae
+Tarsipedidae
+Thylacomyidae
+
+
+Question 3 History:
+  580  tain -n +2 ../data/Pacific2013_data.csv
+  581  tail -n +2 ../data/Pacific2013_data.csv
+  582  tail -n +2 ../data/Pacifici2013_data.csv
+  583  cd data
+  584  tail -n +2 Pacifici2013_data.csv
+  585  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6
+  586  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ";" " "
+  587  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ";" " " | sort -r -n -k 6
+  588  history 10
+  589  history 10 >> ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
+
+Question 4 Answers:
 
