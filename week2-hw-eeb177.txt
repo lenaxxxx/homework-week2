@@ -84,10 +84,12 @@ Matching and Substracting:
 
 Tracking a species:
 cut -d , -f 1,3 | grep -w $1 -r $2 | cut -d : -f 2  > $1.txt
+
 Little Women:
+grep -n -w -i "name" LittleWomen.txt | wc -l
 
 Finding files with different properties:
-
+$ find ./ -type f -mtime -1 -user ahmed
 
  
 
