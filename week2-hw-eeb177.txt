@@ -83,7 +83,7 @@ wc -l $(find . -name '*.dat') | sort -n    means to show the number of lines in 
 Matching and Substracting:
 
 Tracking a species:
-
+cut -d , -f 1,3 | grep -w $1 -r $2 | cut -d : -f 2  > $1.txt
 Little Women:
 
 Finding files with different properties:
