@@ -66,7 +66,30 @@ Question 5 history:
   651  history 17 > ~/Desktop/eeb-177/homeworkW2/week2-hw-eeb177.txt 
 
 Question 6 Answers:
-The size of Marra2014_data.fasta is 553K.
+2. The size of Marra2014_data.fasta is 553K.
+4. 16 contigs are classified as isogroup00036
+5. 
+6. highest number of contigs: >contig00302  length=1014  numreads=3330  gene=isogroup00002  status=it_thresh
+
+Question 7 answers:
+
+
+Question 8 Answers:
+using grep: grep -w "of" haiku.txt will result in    and the presence of absence:
+
+find Pipeline Reading Comprehension: 
+wc -l $(find . -name '*.dat') | sort -n    means to show the number of lines in all files that end at .dat and sort them numerially from lowest to highest
+
+Matching and Substracting:
+
+Tracking a species:
+
+Little Women:
+
+Finding files with different properties:
+
+
+ 
 
 
 
